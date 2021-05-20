@@ -1,0 +1,7 @@
+For running of voice typing on your system you need to install these python modules
+while using this voice typing keep intenet contect with external micro phone
+import speech_recognition as sr
+import subprocess as sp
+from pynput.keyboard import Controller as key_controller
+from pynput.keyboard import Key
+import time
